@@ -1018,6 +1018,19 @@ footer{
 .section__part-1-2{
   margin-right:24px;
 }
+
+body{
+  overflow-x:hidden;
+}
+.bad__code{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+body{
+  margin:0 12px;
+}
+
 @media (max-width:1024px){
   .nav__links{
     display:none;
@@ -1081,7 +1094,7 @@ footer{
 .section__part-1-2{
   padding-bottom:40px;
 }
-}
+
 .container5{
   display: flex;
   flex-direction:column;
@@ -1112,10 +1125,36 @@ footer{
   justify-content: center;
   margin-right:24px;
 }
+section{
+  width:100vw;
+  margin-left:16px;
+  margin-right:16px;
+  padding-right:16px;
+ 
+}
+.section__part-1-4{
+  padding-right:16px;
+}
+footer{
+  width:100vw;
+  
+}
+.menu__btn{
+  margin-right:48px;
+}
+.bad__code{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+body{
+  margin:0 12px;
+}
+}
 @media (max-width:768px){
 section {
   margin:0 36px;
-  max-width:600px;
+  max-width:580px;
 }
 .section__features{
   display: flex;
@@ -1261,6 +1300,26 @@ padding-top:48px;
 .copyright{
   padding:36px 0;
 }
+section{
+  width:100vw;
+}
+footer{
+  width:100vw;
+}
+section{
+  margin:0 80px;
+}
+.menu__btn{
+ margin-right:0;
+}
+nav{
+  margin-left:0;
+}
+.bad__code{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
 }
 @media (max-width:640px){
   section{
@@ -1331,6 +1390,75 @@ padding-top:48px;
   #landing p{
     max-width:400px;
   }
-}
+  section{
+    width:100%;
+  }
   
+ #developers{
+  margin-left:6px;
+ }
+ .container4{
+  padding:0;
+ }
+  .bad__code{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  body{
+    margin:0 12px;
+  }
+}
+  @media (max-width:480px){
+    .bad__code{
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+    }
+    body{
+      margin:0 12px;
+    }
+    .section__title{
+      font-size:36px;
+    }
+    
+    .section__one-btn,
+    .section__one-btn-1,
+    .section__one-btn-2{
+      max-width:150px;
+      padding-left:48px;
+    }
+    .section__one-for-1,
+    .section__one-for-2{
+      text-align:center;
+    }
+    .review{
+      margin-bottom:36px;
+    }
+    .section__part-1-2{
+      width:100px;
+    }
+    .section__part-1-2 .section__title{
+      font-size:24px;
+      text-align:left;
+    }
+    .btn1{
+      margin-bottom:12px;
+    }
+    .footer__one{
+      display: flex;
+      justify-content: center;
+      flex-wrap:wrap;
+    }
+    .first__ul{
+      width: calc(100% / 2);
+    }
+    .review__img{
+      padding:24px 0;
+    }
+    .gigi{
+      width:70px;
+      
+    }
+  }
 
