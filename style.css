@@ -296,6 +296,7 @@ input {
  
  
 }
+
 .section__in--input-btn button {
   position: absolute;
   margin-top: 0.5rem;
@@ -1323,6 +1324,9 @@ nav{
   flex-direction:column;
   align-items: center;
 }
+.cancel{
+  width:100%
+}
 }
 @media (max-width:640px){
   section{
@@ -1411,6 +1415,9 @@ nav{
   body{
     margin:0 12px;
   }
+  .cancel{
+    width:100%
+  }
 }
   @media (max-width:480px){
     .bad__code{
@@ -1463,5 +1470,43 @@ nav{
       width:70px;
       
     }
+    .section__part-1-2{
+      width:100%;
+      text-align:left;
+      
+    }
+   
+    .section__features--start{
+      width:100%;
+      max-width:100%;
+    }
+   .bad__code{
+     padding:0 36px;
+    }
+    .cancel{
+      width:100%
+    }
+    #values{
+      padding-left:36px;
+    }
+    .container5{
+      padding:15px 20px;
+    }
+    .btn1,
+    .btn2{
+      margin-left:0;
+      padding:10px 36px;
+    }
+    .btn{
+      width:100%;
+     
+    }
+    input{
+      display:block;
+    }
+    .cancel{
+      width:80vw;
+    }
+    
   }
 
